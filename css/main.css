@@ -931,9 +931,6 @@ img {
   .team__worker:not(:last-child) {
     margin-bottom: 30px;
   }
-  .worker__picture {
-    background-size: cover;
-  }
 }
 
 .worker__discription {
