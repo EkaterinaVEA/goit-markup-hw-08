@@ -178,12 +178,6 @@ img {
   color: var(--white-color);
 }
 
-@media screen and (max-width: 767px) {
-  .logo__link {
-    margin-right: 260px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .logo__link {
     padding-top: 26px;
@@ -359,6 +353,9 @@ img {
   .nav {
     display: block;
     padding: 60px 0;
+  }
+  .menu-btn__icon {
+    margin-left: 260px;
   }
   .nav__list {
     display: block;
@@ -686,6 +683,7 @@ img {
   }
   .footer__social {
     margin: 0;
+    padding-top: 8px;
   }
 }
 
